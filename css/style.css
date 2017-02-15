@@ -1,0 +1,112 @@
+body{
+    font-family: Raleway;
+}
+
+.navbar{
+    background: #1a1a1a;
+    min-height: 70px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-default {
+    border:0;
+}
+
+.navbar-default .navbar-nav{
+    padding-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #00cc7a;
+    border-bottom: 2px solid #00cc7a;
+}
+.navbar-default .navbar-brand{
+    color:white;
+    font-size: 1.5em;
+    padding-top: 25px;
+}
+
+.navbar-default .navbar-brand:hover{
+    color:#00cc7a;
+    background: #262626;
+    border-bottom: 2px solid #00cc7a;
+}
+
+.navbar-brand{
+    height: 70px;
+}
+
+.jumbotron{
+    background: url(../images/2.jpeg) no-repeat;
+    background-position: 10% 80%;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+    color:white;
+    font-size:150px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    font-family: serif;
+}
+
+.jumbotron h4{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#separador{
+    background: #1a1a1a;
+    min-height: 10px;
+    margin:0;
+    border:0;
+}
+
+#about-me-home{
+    padding-top: 30px;
+    background: #262626;
+    width: 100%;
+    min-height: 320px;
+}
+
+#about-me-home .container{
+    padding: 0;
+    width: 90%;
+}
+
+.img-circulo{
+    width: 180px;
+	border-radius: 80%;
+	float: left;
+    margin-left: 80px;
+	position: absolute;
+}
+
+#about-me-home h4{
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: Raleway;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+#about-me-home .btn{
+    position: relative;
+    left: 300px;
+    font-size: 15px;
+    background: #00cc7a;
+    font-weight: 700;
+}
