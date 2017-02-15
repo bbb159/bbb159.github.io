@@ -11,6 +11,7 @@ body{
 
 .navbar-default {
     border:0;
+    font-size: 15px;
 }
 
 .navbar-default .navbar-nav{
@@ -29,6 +30,7 @@ body{
     color:white;
     font-size: 1.5em;
     padding-top: 25px;
+    border-right: 1px solid white;
 }
 
 .navbar-default .navbar-brand:hover{
@@ -51,7 +53,8 @@ body{
 }
 
 .jumbotron h1{
-    color:white;
+    color:black;
+    background: white;
     font-size:150px;
     text-align: center;
     margin-top: 30px;
@@ -87,7 +90,7 @@ body{
 
 .img-circulo{
     width: 180px;
-	border-radius: 80%;
+	border-radius: 20%;
 	float: left;
     margin-left: 80px;
 	position: absolute;
@@ -108,5 +111,10 @@ body{
     left: 300px;
     font-size: 15px;
     background: #00cc7a;
+    font-weight: 700;
+}
+
+#myName{
+    font-size: 30px;
     font-weight: 700;
 }
