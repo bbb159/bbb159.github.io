@@ -5,12 +5,14 @@ body{
 .navbar{
     background: #1a1a1a;
     min-height: 70px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     border-radius: 0;
+    border: 0;
+    text-transform: uppercase;
 }
 
 .navbar-default {
-    border:0;
+    border-bottom: 3px solid #00cc7a;
     font-size: 15px;
 }
 
@@ -24,19 +26,18 @@ body{
 
 .navbar-default .navbar-nav>li>a:hover{
     color: #00cc7a;
-    border-bottom: 2px solid #00cc7a;
 }
 .navbar-default .navbar-brand{
     color:white;
     font-size: 1.5em;
     padding-top: 25px;
-    border-right: 1px solid white;
+    border-right: 1px solid #00cc7a;
 }
 
 .navbar-default .navbar-brand:hover{
     color:#00cc7a;
     background: #262626;
-    border-bottom: 2px solid #00cc7a;
+    /*border-bottom: 2px solid #00cc7a;*/
 }
 
 .navbar-brand{
@@ -48,7 +49,7 @@ body{
     background-position: 10% 80%;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 500px;
+    min-height: 620px;
     margin-bottom: 0;
 }
 
@@ -58,7 +59,7 @@ body{
     opacity: 0.8;
     font-size:150px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 200px;
     font-family: serif;
 }
@@ -79,7 +80,7 @@ body{
 
 #about-me-home{
     padding-top: 30px;
-    background: #262626;
+    background: #404040;
     width: 100%;
     min-height: 320px;
 }
@@ -93,23 +94,20 @@ body{
     width: 180px;
 	border-radius: 20%;
 	float: left;
-    margin-left: 80px;
-	position: absolute;
+    margin-left: 20px;
+    margin-right: 25px;
 }
 
-#about-me-home h4{
-    margin-left: 300px;
-    margin-top: 20px;
+#about-me-home p{
     font-size: 25px;
     color: white;
     font-family: Raleway;
     letter-spacing: 1px;
     line-height: 35px;
+    float: right;
 }
 
 #about-me-home .btn{
-    position: relative;
-    left: 300px;
     font-size: 15px;
     background: #00cc7a;
     font-weight: 700;
@@ -118,4 +116,79 @@ body{
 #myName{
     font-size: 30px;
     font-weight: 700;
+}
+
+#viagens-home{
+    background: url(../images/travel.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 850px;
+}
+
+#titulos-home{
+    color: white;
+    font-size: 80px;
+    text-align:center;
+    font-weight: 700;
+}
+
+#titulos-home:first-letter{
+    font-size: 100px;
+}
+
+#viagens-home #titulo-viagens-home .fa-suitcase{
+    color: #ffcc00;
+}
+
+#projetos-home{
+    background-color: #404040;
+}
+
+#projetos-home .container {
+	width: 80%;
+}
+
+.tabela-projetos-home{
+    background-color: #333333;
+    min-height: 500px;
+    padding-top: 10px;
+}
+
+.tabela-projetos-home:hover{
+    background-color: #262626;
+}
+
+.tabela-projetos-home header{
+    color:white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.tabela-projetos-home p{
+    color:white;
+    padding: 10px;
+    line-height: 1.5;
+    font-size:16px;
+}
+.tabela-projetos-home img{
+    width: 150px;
+	height: 150px;
+    border-radius: 50%;
+}
+
+.tabela-projetos-home .saiba-mais-home{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#pet-home{
+    border-top: 2px solid #00b8e6;
+}
+
+#startup-home{
+    border-top: 2px solid #b36b00;
+}
+
+#ic-home{
+    border-top: 2px solid #2db300;
 }
